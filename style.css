@@ -1,0 +1,80 @@
+body{
+    background: url("Images/IMG_20220125_220736_976.jpg") no-repeat;
+    background-size: cover;
+}
+
+nav{
+    width: fit-content;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%);
+    color: #ffffff;
+}
+
+h1{
+    font-size: 3vw;
+    height:fit-content;
+    margin: 0px;
+    color: #ffffff;
+}
+
+span.h1{
+    color: #ff0000;
+}
+
+h2{
+    font-size: 3vw;
+}
+
+h3{
+    font-size: 2vw;
+}
+
+p{
+    height: fit-content;
+    margin: -10px;
+}
+
+#dis, #disc{
+    font-size: xx-small;
+    margin-top: -10px;
+}
+
+ul li{
+    float: left;
+    list-style-type: none;
+    margin: 10px;
+    padding: 20px;
+}
+
+ul li:hover{
+    text-decoration: underline;
+    background-color: #008000;
+}
+
+#register{
+    background-color: #ff0000;
+}
+
+#register:hover{
+    background-color: #008000;
+}
+
+a{
+    color: #ffffff;
+    text-decoration: none;
+    display: block;
+}
+
+div{
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: #ffffff;
+}
+
+span.red{
+    color: #ff0000;
+}
