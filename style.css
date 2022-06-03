@@ -11,6 +11,12 @@ nav{
     color: #ffffff;
 }
 
+nav ul li a{
+    text-transform: uppercase;
+    padding: 20px;
+    transition: .5s;
+}
+
 h1{
     font-size: 3vw;
     height:fit-content;
@@ -43,11 +49,9 @@ p{
 ul li{
     float: left;
     list-style-type: none;
-    margin: 10px;
-    padding: 20px;
 }
 
-ul li:hover{
+ul li a:hover{
     text-decoration: underline;
     background-color: #008000;
 }
